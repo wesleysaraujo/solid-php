@@ -20,3 +20,8 @@ Uma classe só deve implementar métodos que serão usados por ela, e não méto
 ## D of SOLID
 O D é o princípio de Dependency Inversion, ou princípio da inversão de dependência. Uma implementação concreta deve depender de abstrações, porém abstrações não deve depender de implementações concretas.
 Em termos práticos, sempre que eu precisar passar um objeto para uma classe concreta ou método dessa, eu devo passar uma abstração... uma interface, pois com isso eu não preciso mudar a classe concreta sempre que ocorre uma mudança no código da classe que está sendo passada.
+
+# References
+[SOLID]:https://pt.wikipedia.org/wiki/SOLID
+[Clean Architecture]: https://pt.wikipedia.org/wiki/Clean_Architecture
+[Clean Code]: https://pt.wikipedia.org/wiki/Clean_Code
