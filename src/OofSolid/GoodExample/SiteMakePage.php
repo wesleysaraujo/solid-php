@@ -2,37 +2,12 @@
 
 namespace WesleySAraujo\SolidPhp\OofSolid\GoodExample;
 
-use WesleySAraujo\SolidPhp\OofSolid\GoodExample\Contracts\SiteMakePageInterface;
-
-class SiteMakePage implements SiteMakePageInterface
+class SiteMakePage extends AbastractSiteMakePage
 {
-    public function makePage(string $pageName, string $content): string
+    public function __construct($pageName, $pageContent)
     {
-        $header = $this->setHeader($pageName);
-        $content = $this->setContent("$pageName");
-        $footer = $this->setFooter();
+        parent::__construct($pageName, $pageContent);
 
-        return $header . $content . $footer;
-    }
-
-    public function setHeader(string $title): string
-    {
-        return "<doctype html>
-            <html>
-            <head>
-                <title>$title</title>
-            </head>
-            <body>";
-    }
-
-    public function setFooter(): string
-    {
-        return "</body>
-            </html>";
-    }
-
-    public function setContent(string $content): string
-    {
-        return "<main>{$content}</main>";
+        $this->makePage();
     }
 }

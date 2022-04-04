@@ -13,6 +13,4 @@ abstract class AbstractPageMakeHome
     public string $page;
 
     abstract public function makeHome(): string;
-
-
 }
