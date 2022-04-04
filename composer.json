@@ -1,0 +1,23 @@
+{
+    "name": "wesleysaraujo/solid-php",
+    "description": "Projeto exemplo na qual irei demonstrar a aplicação dos princípios do SOLID usando OO no PHP",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "WesleySAraujo\\SolidPhp\\": "src/",
+	    "Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "wesleysaraujo",
+            "email": "wsadesigner@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
