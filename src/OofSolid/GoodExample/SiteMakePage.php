@@ -2,7 +2,7 @@
 
 namespace WesleySAraujo\SolidPhp\OofSolid\GoodExample;
 
-class SiteMakePage extends AbastractSiteMakePage
+class SiteMakePage extends AbstractSiteMakePage
 {
     public function __construct($pageName, $pageContent)
     {

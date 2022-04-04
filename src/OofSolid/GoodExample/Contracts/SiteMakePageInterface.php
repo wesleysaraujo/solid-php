@@ -6,9 +6,9 @@ interface SiteMakePageInterface
 {
     public function makePage(): void;
 
-    public function setHeader(string $title): string;
+    public function makeHeader(string $title): string;
 
-    public function setFooter(): string;
+    public function makeFooter(): string;
 
-    public function setContent(string $content): string;
+    public function makeContent(string $content): string;
 }
