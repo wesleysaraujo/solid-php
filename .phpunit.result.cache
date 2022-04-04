@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Tests\\Feature\\GoodClassSiteTest::testGoodClassSite":4},"times":{"Tests\\Feature\\GoodClassSiteTest::testGoodClassSite":0.002,"Tests\\Feature\\GoodClassSiteTest::testGetUrl":0,"Tests\\Feature\\GoodClassSiteTest::testGetDescription":0,"Tests\\Feature\\GoodClassSiteTest::testGetImage":0,"Tests\\Feature\\GoodClassSiteTest::testGetData":0}}

@@ -128,7 +128,7 @@ class GoodClassSite
             "url" => $this->getUrl(),
             "title" => $this->getTitle(),
             "description" => $this->getDescription(),
-            "pathLogo" => $this->getPathLogo()
+            "path_logo" => $this->getPathLogo()
         ];
     }
 }
